@@ -1,0 +1,17 @@
+$ ./go-jamcracker -h
+  ,---.       ,--.
+ /  O  \      |  | go-jamcracker
+|  .-.  |,--. |  | by ytcracker and mandarinp
+|  | |  ||  '-'  / for educational purposes only
+`--' `--' `-----' 
+Usage of ./go-jamcracker:
+  -c string
+    	path to file for saving successful cracks (default "cracks.txt")
+  -l string
+    	path to file containing passwords (default "passwords.txt")
+  -p string
+    	path to file containing HTTP proxies in ip:port format (optional)
+  -t uint
+    	amount of simultaneous cracking threads (default 10)
+  -u string
+    	path to file containing usernames (default "usernames.txt")
